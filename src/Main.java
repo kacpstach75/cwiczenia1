@@ -11,9 +11,9 @@ public class Main {
 
         System.out.println("Podaj swoje nazwisko");
         String nazwisko = scanner.nextLine();
-
-        System.out.println("Twoje imie to " + nazwisko );
-
+        System.out.println("Podaj swoje imie");
+        String imie = scanner.nextLine();
+        System.out.println("Twoje imie to " + imie +"a nazwisko to "+  nazwisko );
 
 
     }
